@@ -1,0 +1,13 @@
+<?php
+
+//conexion a la base de datos
+
+$servidor = "localhost";
+$usuario = "root";
+$clave = "";
+$base_de_datos = "consultorio_dental";
+
+mysql_connect($servidor, $usuario, $clave) or die(mysql_error()) ;
+mysql_select_db($base_de_datos) or die(mysql_error()) ;
+
+?>
